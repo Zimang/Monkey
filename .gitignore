@@ -1,0 +1,79 @@
+# ---- C++ ----
+# 忽略编译生成的对象文件、可执行文件等
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+*.lib
+*.dll
+*.exe
+
+# 忽略调试信息和符号表
+*.dSYM/
+*.exe.stackdump
+*.out
+*.stackdump
+*.cmi
+*.pdb
+*.pdb/
+*.ilk
+*.idb
+
+# ---- Qt ----
+# 忽略 Qt 构建生成的文件
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+*.rcc
+*.qrc
+*.qmlc
+*.qrc.depends
+*.qrc.debug
+*.qrc.release
+
+# 忽略 Qt Designer .pro.user 文件
+*.pro.user
+*.pro.user.*
+
+# 忽略 Qt Creator 编译输出
+*.qmlproject.user
+*.qmlproject.user.*
+
+# 忽略 Qt Creator Build Directories
+build-*
+*.autosave
+
+# ---- CMake ----
+# CMake 生成的构建文件和缓存
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+build/
+build*/
+
+# 如果你有 out-of-source builds
+out/
+
+# 忽略 Ninja 构建系统的临时文件
+build.ninja
+.ninja_deps
+.ninja_log
+
+# ---- CLion ----
+# 忽略 CLion 和 JetBrains IDE 生成的文件
+.idea/
+*.iml
+*.iws
+cmake-build-*/
+
+# ---- 编辑器文件 ----
+# 忽略编辑器生成的临时文件（如 VSCode、Vim 等）
+.vscode/
+*.swp
+*.swo
+*~
