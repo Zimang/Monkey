@@ -14,6 +14,6 @@ T add(T a, T b) {
 }
 
 int main() {
-    // std::cout << add(5, 1022) << std::endl;  // 输出：15
+    std::cout << add(5, 1022) << std::endl;  // 输出：15
     return 0;
 }

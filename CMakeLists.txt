@@ -6,6 +6,11 @@ project(Monkey)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+
+# 配置不同的构建类型
+set(CMAKE_CXX_FLAGS_DEBUG "-g")
+set(CMAKE_CXX_FLAGS_RELEASE "-O3")
+
 # 添加源文件目录
 add_subdirectory(src)
 # 添加测试文件目录
